@@ -10,7 +10,7 @@ public class TestVendedorComisionJUnir {
 	@Test
 	public void deberiaCalcularSueldoComisionCorrectamente() {
 
-		VendedorComision vendedor = new VendedorComision("1001","V");
+		VendedorComision vendedor = new VendedorComision("1001");
 
 		vendedor.setComisionPorVenta(10);
 		vendedor.setNumeroVentas(5);

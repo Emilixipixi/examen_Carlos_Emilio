@@ -2,8 +2,8 @@ package com.krakedev.examen_Carlos_Morales;
 
 public class VendedorMixto extends Vendedor {
 
-    public VendedorMixto(String cedula,String tipo) {
-        super(cedula,tipo);
+    public VendedorMixto(String cedula) {
+        super(cedula,"M");
     }
 
     @Override
