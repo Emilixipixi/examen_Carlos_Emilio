@@ -25,6 +25,8 @@ public class AdminVentas {
 			if (vendedor.getCedula().equals(cedula)) {
 
 				return vendedor.calcularSueldo();
+				
+				
 			}
 
 		}

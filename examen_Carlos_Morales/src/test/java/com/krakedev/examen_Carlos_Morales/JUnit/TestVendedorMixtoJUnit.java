@@ -11,7 +11,7 @@ public class TestVendedorMixtoJUnit {
 	@Test
 	public void deberiaCalcularSueldoMixtoCorrectamente() {
 
-		VendedorMixto vendedor = new VendedorMixto("1002");
+		VendedorMixto vendedor = new VendedorMixto("1002","V");
 
 		vendedor.setSueldoFijo(500);
 		vendedor.setNumeroVentas(4);
